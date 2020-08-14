@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action="newsletter" id="newsletter">
+
+        <ul id="errors"></ul>
+         
+        <label for="name">Imię i nazwisko</label><br>
+        <input type="text" name="name" id="name" placeholder="Jan Kowalski"><br>
+
+        <label for="email">Adres e-mail</label><br>
+        <input type="email" name="email" id="email" placeholder="jan.kowalski@.pl"><br>
+
+        <input type="checkbox" name="firstAgreement" id="firstAgreement">
+        <label for="firstAgreement">Wyrażam zgodę pierwszą</label><br>
+
+        <input type="checkbox" name="secondAgreement" id="secondAgreement">
+        <label for="secondAgreement">Wyrażam zgodę drugą</label><br>
+       
+        <input type="checkbox" name="allAgreements" id="allAgreements">
+        <label for="allAgreements">Wyrażam wszystkie zgody</label><br>
+
+        <button type="submit" id="sign-up">Zapisz</button><br>
+    </form>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
